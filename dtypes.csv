@@ -1,0 +1,70 @@
+,0
+event_entity,category
+event_type,category
+event_timestamp,"datetime64[ns, UTC]"
+event_comment,object
+event_user_id,Int64
+event_user_text_historical,object
+event_user_text,object
+event_user_blocks_historical,object
+event_user_blocks,object
+event_user_groups_historical,object
+event_user_groups,object
+event_user_is_bot_by_historical,object
+event_user_is_bot_by,object
+event_user_is_created_by_self,boolean
+event_user_is_created_by_system,boolean
+event_user_is_created_by_peer,boolean
+event_user_is_anonymous,boolean
+event_user_registration_timestamp,"datetime64[ns, UTC]"
+event_user_creation_timestamp,"datetime64[ns, UTC]"
+event_user_first_edit_timestamp,"datetime64[ns, UTC]"
+event_user_revision_count,Int64
+event_user_seconds_since_previous_revision,Int64
+page_id,Int64
+page_title_historical,object
+page_title,object
+page_namespace_historical,Int64
+page_namespace_is_content_historical,boolean
+page_namespace,Int64
+page_namespace_is_content,boolean
+page_is_redirect,boolean
+page_is_deleted,boolean
+page_creation_timestamp,"datetime64[ns, UTC]"
+page_first_edit_timestamp,"datetime64[ns, UTC]"
+page_revision_count,Int64
+page_seconds_since_previous_revision,Int64
+user_id,Int64
+user_text_historical,object
+user_text,object
+user_blocks_historical,object
+user_blocks,object
+user_groups_historical,object
+user_groups,object
+user_is_bot_by_historical,object
+user_is_bot_by,object
+user_is_created_by_self,boolean
+user_is_created_by_system,boolean
+user_is_created_by_peer,boolean
+user_is_anonymous,boolean
+user_registration_timestamp,"datetime64[ns, UTC]"
+user_creation_timestamp,"datetime64[ns, UTC]"
+user_first_edit_timestamp,"datetime64[ns, UTC]"
+revision_id,Int64
+revision_parent_id,Int64
+revision_minor_edit,boolean
+revision_deleted_parts,object
+revision_deleted_parts_are_suppressed,boolean
+revision_text_bytes,Int64
+revision_text_bytes_diff,Int64
+revision_text_sha1,object
+revision_content_model,object
+revision_content_format,object
+revision_is_deleted_by_page_deletion,boolean
+revision_deleted_by_page_deletion_timestamp,"datetime64[ns, UTC]"
+revision_is_identity_reverted,boolean
+revision_first_identity_reverting_revision_id,Int64
+revision_seconds_to_identity_revert,Int64
+revision_is_identity_revert,boolean
+revision_is_from_before_page_creation,boolean
+revision_tags,object
